@@ -1,0 +1,43 @@
+{
+  "name": "pump-lolly-pop",
+  "version": "1.0.0",
+  "description": "An interactive guide to Pump.fun custom pairs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/404punks/Pvepu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/404punks/Pvepu/issues"
+  },
+  "homepage": "https://github.com/404punks/Pvepu#readme",
+  "dependencies": {
+    "framer-motion": "^14.0.0",
+    "lucide-react": "^1.53.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.12.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.71.1",
+    "vite": "^8.3.4"
+  }
+}
