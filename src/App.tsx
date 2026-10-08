@@ -237,7 +237,7 @@ function App() {
             <ArrowDown size={18} />
           </a>
           <Button href={tokenConfig.buyUrl} disabled={!tokenConfig.isLive}>
-            Buy $LOLLY <ArrowUpRight size={16} />
+            {tokenConfig.isLive ? 'Buy $LOLLY' : 'Launch soon'} <ArrowUpRight size={16} />
           </Button>
         </div>
         <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
@@ -481,7 +481,9 @@ function App() {
               </button>
             </div>
             <div className="launch-actions">
-              <Button href={tokenConfig.buyUrl} disabled={!tokenConfig.isLive}>Buy $LOLLY <ArrowUpRight size={16} /></Button>
+              <Button href={tokenConfig.buyUrl} disabled={!tokenConfig.isLive}>
+                {tokenConfig.isLive ? 'Buy $LOLLY' : 'Buy link coming soon'} <ArrowUpRight size={16} />
+              </Button>
               <span className="coming-soon"><i /> NOT LIVE YET</span>
             </div>
           </div>
